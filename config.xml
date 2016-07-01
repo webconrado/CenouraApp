@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0" id="com.conradoweb.cenouraapp">
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.conradoweb.cenouraapp"
+        version="1.0.0">
     <name>Só de Cenoura</name>
 
     <description>
@@ -10,4 +13,13 @@
     <author href="http://www.conradoweb.com.br/" email="faleconosco@conradoweb.com.br">
         Lucas Conrado
     </author>
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+
+    <gap:platform name="android" />
+
+    <icon src="imagens/icon.png" />
+    <gap:splash src="imagens/splash.png" />
 </widget>
